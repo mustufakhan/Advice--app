@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.App{
+  height: 100%;
+  background-image: url("./blog_rainydaypark.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.card{
+  padding: 2%;
+  height: 45%;
+  width:45%;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 2.4%;
+}
+h1{
+  display: flex;
+  align-items:center;
+  font-family: "spartan";
+  color: white;
+  font-size: 25px;
+}
+button{
+
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 10%;
+  width: 35%;
+  opacity: 1;
+  background-color: rgb(90, 57, 51);;
+  color: white;
+ 
+
+}
+button:hover {
+ background-color: rgb(90, 57, 51);
+
+}
